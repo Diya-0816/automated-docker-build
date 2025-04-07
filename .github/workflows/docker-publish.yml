@@ -6,11 +6,11 @@ on:
       - main
 
 jobs:
-  build-and-push:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout source code
+      - name: Checkout code
         uses: actions/checkout@v3
 
       - name: Log in to DockerHub
@@ -24,4 +24,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: diya0816/flask-calculator:latest
+          tags: diya0816
+
+
