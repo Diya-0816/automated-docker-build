@@ -2,3 +2,4 @@
 A project demonstrating automated builds and Docker image deployment using GitHub Actions.
 <!-- Trigger GitHub Actions -->
 <!-- Triggering workflow -->
+<!-- Trigger GitHub Actions -->
